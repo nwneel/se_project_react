@@ -1,0 +1,10 @@
+.modal__footer {
+  padding-left: 32px;
+}
+
+.modal__weather {
+  margin-bottom: 32px;
+  font-weight: bold;
+  line-height: 24px;
+  font-family: "Cabinet Grotesk", sans-serif;
+}

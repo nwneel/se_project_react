@@ -1,0 +1,23 @@
+.card {
+  width: 323px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #00000030;
+  border-radius: 20px;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card__name {
+  position: absolute;
+  top: 15px;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-family: "Cabinet Grotesk", sans-serif;
+}
