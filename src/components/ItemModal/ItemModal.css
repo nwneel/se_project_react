@@ -8,3 +8,7 @@
   line-height: 24px;
   font-family: "Cabinet Grotesk", sans-serif;
 }
+
+.modal_opened {
+  visibility: visible;
+}

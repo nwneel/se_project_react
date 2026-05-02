@@ -49,6 +49,24 @@ function App() {
   };
 
   useEffect(() => {
+    if (!activeModal) return; // stop the effect not to add the listener if there is no active modal
+
+    const handleEscClose = (e) => {
+      // define the function inside useEffect not to lose the reference on rerendering
+      if (e.key === "Escape") {
+        closeActiveModal();
+      }
+    };
+
+    document.addEventListener("keydown", handleEscClose);
+
+    return () => {
+      // don't forget to add a clean up function for removing the listener
+      document.removeEventListener("keydown", handleEscClose);
+    };
+  }, [activeModal]); // watch activeModal here
+
+  useEffect(() => {
     getWeather(coordinates, APIkey)
       .then((data) => {
         const filteredData = filterWeatherData(data);
@@ -71,7 +89,7 @@ function App() {
       <ModalWithForm
         title="New garment"
         buttonText="Add garment"
-        activeModal={activeModal}
+        isOpen={activeModal === "add-garment"}
         onClose={closeActiveModal}
         onSubmit={handleAddItemSubmit}
       >
@@ -96,19 +114,37 @@ function App() {
         <fieldset className="modal__radio-buttons">
           <legend className="modal__legend">Select the weather type:</legend>
           <label htmlFor="hot" className="modal__label modal__label_type_radio">
-            <input id="hot" type="radio" className="modal__radio-input" /> Hot
+            <input
+              id="hot"
+              name="weather"
+              type="radio"
+              className="modal__radio-input"
+            />{" "}
+            Hot
           </label>
           <label
             htmlFor="warm"
             className="modal__label modal__label_type_radio"
           >
-            <input id="warm" type="radio" className="modal__radio-input" /> Warm
+            <input
+              id="warm"
+              name="weather"
+              type="radio"
+              className="modal__radio-input"
+            />{" "}
+            Warm
           </label>
           <label
             htmlFor="cold"
             className="modal__label modal__label_type_radio"
           >
-            <input id="cold" type="radio" className="modal__radio-input" /> Cold
+            <input
+              id="cold"
+              name="weather"
+              type="radio"
+              className="modal__radio-input"
+            />{" "}
+            Cold
           </label>
         </fieldset>
       </ModalWithForm>

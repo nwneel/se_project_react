@@ -5,7 +5,7 @@ function ModalWithForm({
   children,
   buttonText,
   title,
-  activeModal,
+  isOpen,
   onClose,
   onSubmit,
 }) {
@@ -20,7 +20,7 @@ function ModalWithForm({
         formData[element.id] = element.value;
       }
       if (element.type === "radio" && element.checked) {
-        formData.weather = element.id;
+        formData[element.name] = element.id;
       }
     }
 
@@ -28,9 +28,7 @@ function ModalWithForm({
   };
 
   return (
-    <div
-      className={`modal ${activeModal === "add-garment" && "modal__opened"}`}
-    >
+    <div className={`modal ${isOpen && "modal__opened"}`}>
       <div className="modal__content">
         <form className="modal__form" onSubmit={handleSubmit}>
           <h2 className="modal__title">{title}</h2>
