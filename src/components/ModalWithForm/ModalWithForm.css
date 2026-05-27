@@ -116,4 +116,5 @@
 .modal__content_type_image {
   padding: 0;
   overflow: hidden;
+  position: relative;
 }

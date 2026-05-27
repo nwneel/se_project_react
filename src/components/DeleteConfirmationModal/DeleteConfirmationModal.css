@@ -1,0 +1,42 @@
+.modal__delete-btn {
+  color: #ff4d00;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.modal__close-delete {
+  width: 20px;
+  height: 20px;
+}
+
+.modal__content-delete {
+  max-height: 200px;
+}
+
+.modal__delete-title {
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.modal__cancel-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000000;
+}
+
+.modal__btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

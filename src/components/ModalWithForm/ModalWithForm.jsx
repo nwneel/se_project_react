@@ -3,11 +3,12 @@ import closeButton from "../../assets/Close-Icon.svg";
 
 function ModalWithForm({
   children,
-  buttonText,
+  buttonText = "Save",
   title,
   isOpen,
   onClose,
   onSubmit,
+  name,
 }) {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -30,7 +31,7 @@ function ModalWithForm({
   return (
     <div className={`modal ${isOpen && "modal__opened"}`}>
       <div className="modal__content">
-        <form className="modal__form" onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="modal__form">
           <h2 className="modal__title">{title}</h2>
           <button onClick={onClose} type="button" className="modal__close">
             <img src={closeButton} alt="Close" />

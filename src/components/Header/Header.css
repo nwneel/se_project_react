@@ -2,6 +2,16 @@
   display: flex;
   align-items: center;
   padding: 32px 0 28px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__row {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
 }
 
 .header__add-clothes-btn {
@@ -30,4 +40,10 @@
 
 .header__username {
   margin: 0;
+}
+
+.header__nav-link {
+  color: black;
+  /* text-decoration: none prevent the link from changing colors when you click on it */
+  text-decoration: none;
 }

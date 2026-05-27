@@ -2,13 +2,44 @@
   padding-left: 32px;
 }
 
+.modal__caption {
+  margin: 0;
+}
+
+.modal__text {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
 .modal__weather {
-  margin-bottom: 32px;
   font-weight: bold;
+  margin: 0;
   line-height: 24px;
   font-family: "Cabinet Grotesk", sans-serif;
+  margin-bottom: 32px;
+}
+
+.modal__image-footer {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: space-between;
 }
 
 .modal_opened {
   visibility: visible;
+}
+
+.modal__delete {
+  margin-left: 298px;
+}
+
+.modal__delete-item {
+  color: #ff4d00;
+  cursor: pointer;
+  width: 138px;
+  height: 24px;
+  background: transparent;
+  border: none;
 }

@@ -1,0 +1,142 @@
+{
+  "items": [
+    {
+      "_id": 1,
+      "name": "Boot",
+      "weather": "cold",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Boot.png?etag=0953a2ea59f1c6ebc832fabacdc9c70e"
+    },
+    {
+      "_id": 2,
+      "name": "Cap",
+      "weather": "hot",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Cap.png?etag=f3dad389b22909cafa73cff9f9a3d591"
+    },
+    {
+      "_id": 4,
+      "name": "Dress",
+      "weather": "hot",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Dress.png?etag=1f9cd32a311ab139cab43494883720bf"
+    },
+    {
+      "_id": 9,
+      "name": "Sandals",
+      "weather": "hot",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Sandals.png?etag=9bea85a77c0306586d2b71a33b626d41"
+    },
+    {
+      "_id": 11,
+      "name": "Shorts",
+      "weather": "Hot",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Shorts.png?etag=d728c496643f610de8d8fea92dd915ba"
+    },
+    {
+      "_id": 12,
+      "name": "Skirt",
+      "weather": "hot",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Skirt.png?etag=27a6bea7e1b63218820d615876fa31d1"
+    },
+    {
+      "_id": 14,
+      "name": "Sunglasses",
+      "weather": "hot",
+      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Sunglasses.png?etag=a1bced9e331d36cb278c45df51150432"
+    },
+    {
+      "name": "hello",
+      "imageUrl": "https://bornprimitive.com/cdn/shop/files/Batch2_0178_Layer85.jpg?v=1762275966&width=990",
+      "weather": "warm",
+      "_id": 27
+    },
+    {
+      "name": "hello",
+      "imageUrl": "https://bornprimitive.com/cdn/shop/files/Batch2_0178_Layer85.jpg?v=1762275966&width=990",
+      "weather": "hot",
+      "_id": 32
+    },
+    {
+      "name": "Nathaniel Neel",
+      "imageUrl": "https://www.cato.org/sites/cato.org/files/styles/aside_3x/public/2023-11/fast-fashion2.jpeg?itok=72ek8bxI",
+      "weather": "hot",
+      "_id": 33
+    },
+    {
+      "name": "Nathaniel Neel",
+      "imageUrl": "https://www.cato.org/sites/cato.org/files/styles/aside_3x/public/2023-11/fast-fashion2.jpeg?itok=72ek8bxI",
+      "weather": "hot",
+      "_id": 34
+    },
+    {
+      "name": "Nathaniel Neel",
+      "imageUrl": "https://www.cato.org/sites/cato.org/files/styles/aside_3x/public/2023-11/fast-fashion2.jpeg?itok=72ek8bxI",
+      "weather": "hot",
+      "_id": 35
+    },
+    {
+      "name": "hello",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "hot",
+      "_id": 37
+    },
+    {
+      "name": "hello",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "hot",
+      "_id": 40
+    },
+    {
+      "name": "Nathan Neel",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "hot",
+      "_id": 41
+    },
+    {
+      "name": "Nathan Neel",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "warm",
+      "_id": 42
+    },
+    {
+      "name": "Nathan Neel",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "cold",
+      "_id": 43
+    },
+    {
+      "name": "Nathan Neel",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "cold",
+      "_id": 45
+    },
+    {
+      "name": "Nathan Neel",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "hot",
+      "_id": 46
+    },
+    {
+      "name": "Nathan Neel",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "hot",
+      "_id": 48
+    },
+    {
+      "name": "Nathan",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "hot",
+      "_id": 49
+    },
+    {
+      "name": "Nathan",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "hot",
+      "_id": 50
+    },
+    {
+      "name": "hello",
+      "imageUrl": "https://bornprimitive.com/cdn/shop/files/Batch2_0178_Layer85.jpg?v=1762275966&width=990",
+      "weather": "cold",
+      "_id": 51
+    }
+  ]
+}
