@@ -45,12 +45,6 @@
     {
       "name": "hello",
       "imageUrl": "https://bornprimitive.com/cdn/shop/files/Batch2_0178_Layer85.jpg?v=1762275966&width=990",
-      "weather": "warm",
-      "_id": 27
-    },
-    {
-      "name": "hello",
-      "imageUrl": "https://bornprimitive.com/cdn/shop/files/Batch2_0178_Layer85.jpg?v=1762275966&width=990",
       "weather": "hot",
       "_id": 32
     },
@@ -93,12 +87,6 @@
     {
       "name": "Nathan Neel",
       "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
-      "weather": "warm",
-      "_id": 42
-    },
-    {
-      "name": "Nathan Neel",
-      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
       "weather": "cold",
       "_id": 43
     },
@@ -127,16 +115,28 @@
       "_id": 49
     },
     {
-      "name": "Nathan",
+      "name": "Nathan W Neel",
       "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
-      "weather": "hot",
+      "weather": "cold",
       "_id": 50
     },
     {
       "name": "hello",
       "imageUrl": "https://bornprimitive.com/cdn/shop/files/Batch2_0178_Layer85.jpg?v=1762275966&width=990",
-      "weather": "cold",
+      "weather": "warm",
       "_id": 51
+    },
+    {
+      "name": "hello",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "warm",
+      "_id": 52
+    },
+    {
+      "name": "hello",
+      "imageUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5be9f9a2/images/hi-res/Sandro_SHPJE00643-47_H_1.jpg?sw=2000&sh=2000",
+      "weather": "warm",
+      "_id": 53
     }
   ]
 }

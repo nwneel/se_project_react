@@ -110,7 +110,7 @@ function App() {
     if (!activeModal) return; // stop the effect not to add the listener if there is no active modal
 
     const handleEscClose = (e) => {
-      // define the function inside useEffect not to lose the reference on rerendering
+      // defines the function inside useEffect not to lose the reference on rerendering
       if (e.key === "Escape") {
         closeActiveModal();
       }
