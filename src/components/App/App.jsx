@@ -17,7 +17,6 @@ import Profile from "../Profile/Profile.jsx";
 import { filterWeatherData, getWeather } from "../../utils/weatherApi";
 import CurrentTemperatureUnitContext from "../Contexts/CurrentTemperatureUnitContext.jsx";
 import AddItemModal from "../AddItemModal/AddItemModal.jsx";
-import NotFound from "../NotFound/NotFound.jsx";
 import { addItem, getItems, removeItem } from "../../utils/api.js";
 
 function App() {
@@ -176,8 +175,6 @@ function App() {
                 />
               }
             />
-            {/* Helps create a 404 error when you access a webpage the doesn't exist */}
-            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </div>
